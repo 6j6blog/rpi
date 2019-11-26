@@ -1,6 +1,15 @@
 [TODO]
-Super initial steps...
+Super initial steps... [SD card, OS, ...]
 
 Excellent post on OLED display setup:
 https://www.raspberrypi-spy.co.uk/2018/04/i2c-oled-display-module-with-raspberry-pi/
 [TODO] - code on python3 needed some delicate changes.
+
+
+LED
+>>pi@raspberrypi:~ $ gpio readall
+>>Oops - unable to determine board type... model: 17
+Fix:
+http://wiringpi.com/wiringpi-updated-to-2-52-for-the-raspberry-pi-4b/
+Example:
+https://github.com/kanesurendra/RPizone/blob/master/gpio-led/gpio.py
