@@ -13,3 +13,20 @@ Fix:
 http://wiringpi.com/wiringpi-updated-to-2-52-for-the-raspberry-pi-4b/
 Example:
 https://github.com/kanesurendra/RPizone/blob/master/gpio-led/gpio.py
+
+Docker + LED
+http://www.knight-of-pi.org/docker-container-with-rpi-gpio-access-for-the-raspberry-pi
+
+https://github.com/JoBergs/RaspiContent/tree/master/docker_GPIO
+
+sudo docker run --device /dev/gpiomem -d led-stretch
+LED is blinking!
+sudo docker container ls
+sudo docker stop ID
+
+[WINDOWS 10]
+https://code.visualstudio.com/docs/remote/containers#_creating-a-devcontainerjson-file
+docker desktop installation
+
+Error running code in the container on a local machine. Solution:
+https://blogs.msdn.microsoft.com/stevelasker/2016/06/14/configuring-docker-for-windows-volumes/
