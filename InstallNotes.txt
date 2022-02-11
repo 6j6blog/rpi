@@ -1,0 +1,4 @@
+Action after initial instalation.
+
+Changing desktop environment to Mate:
+https://raspberrytips.com/pimp-my-raspberry-pi/
